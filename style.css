@@ -1,0 +1,215 @@
+html {
+  scroll-behavior: smooth;
+}
+
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    margin: 0;
+    background: #aa8669;
+    background: linear-gradient(87deg, #af6e38 0%, #faf7f0 100%);
+    font-family: BROLIMO;
+  }
+  .first-section {
+    border-bottom: 1px solid #000;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    height: 100vh;
+    padding-top: 75px;
+    width: 100%;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .first-section h1 {
+    letter-spacing: 0.5px;
+    font-size: 48px;
+    width: 100%;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-weight: 800;
+  }
+  .first-section p {
+    margin-top: -10px;
+    font-size: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    width: 100%;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .first-section .menu-btn {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: auto;
+    margin-top: 55px;
+    border: none;
+    border-radius: 50px;
+    width: 125px;
+    height: 50px;
+    background: #fffaf0;
+    -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  .first-section .menu-btn .menu-btn:hover {
+    -webkit-box-shadow: 0px 15px 20px;
+            box-shadow: 0px 15px 20px;
+    -webkit-transform: translateY(-7px);
+            transform: translateY(-7px);
+  }
+  .first-section .menu-btn a {
+    color: #000;
+    text-decoration: none;
+    font-family: BROLIMO;
+    font-weight: 700;
+    font-size: 21px;
+  }
+  #menu {
+    text-align: center;
+    scroll-margin: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #menu ul {
+    list-style: none;
+    text-align: center;
+    width: 90vw;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 30px;
+    padding: 0;
+    font-family: Noto Sans, sans-serif;
+    font-weight: 700;
+  }
+  #menu ul h3 {
+    -webkit-text-stroke: 0.75px rgba(0, 0, 0, 0.789);
+    border-radius: 20px;
+    padding-top: 15px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 70px;
+    color: #e4e4dc;
+    margin: 0;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  #menu ul li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #menu ul li h4 {
+    font-weight: 400;
+    text-decoration: underline;
+    font-size: 19px;
+    margin-bottom: 0;
+  }
+  #menu ul li p {
+    margin: 0;
+    width: 100%;
+    padding-left: 10%;
+    text-align: left;
+    font-size: 10px;
+    font-weight: 400;
+    color: #595959;
+  }
+  #menu .sogukicecekler {
+    padding-bottom: 170px;
+  }
+  #menu .sogukicecekler h3 {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(29, 29, 29, 0.55)), to(rgba(29, 29, 29, 0.55))), url(images/soguk_icecek.jpg) 100% 10% no-repeat;
+    background: linear-gradient(rgba(29, 29, 29, 0.55), rgba(29, 29, 29, 0.55)), url(images/soguk_icecek.jpg) 100% 10% no-repeat;
+    -o-object-fit: cover;
+       object-fit: cover;
+    background-size: 100%;
+  }
+  #menu .corbalar h3 {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(29, 29, 29, 0.55)), to(rgba(29, 29, 29, 0.55))), url(images/corba.jpg) 100% 50% no-repeat;
+    background: linear-gradient(rgba(29, 29, 29, 0.55), rgba(29, 29, 29, 0.55)), url(images/corba.jpg) 100% 50% no-repeat;
+    -o-object-fit: cover;
+       object-fit: cover;
+    background-size: 100%;
+  }
+  #menu .zeytinyaglilar h3 {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(29, 29, 29, 0.55)), to(rgba(29, 29, 29, 0.55))), url(images/zeytinyagli.jpg) 100% 50% no-repeat;
+    background: linear-gradient(rgba(29, 29, 29, 0.55), rgba(29, 29, 29, 0.55)), url(images/zeytinyagli.jpg) 100% 50% no-repeat;
+    -o-object-fit: cover;
+       object-fit: cover;
+    background-size: 100%;
+  }
+  #menu .salatalar h3 {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(29, 29, 29, 0.55)), to(rgba(29, 29, 29, 0.55))), url(images/salata.jpg) 100% 50% no-repeat;
+    background: linear-gradient(rgba(29, 29, 29, 0.55), rgba(29, 29, 29, 0.55)), url(images/salata.jpg) 100% 50% no-repeat;
+    -o-object-fit: cover;
+       object-fit: cover;
+    background-size: 100%;
+  }
+  #menu .izgaralar h3 {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(29, 29, 29, 0.55)), to(rgba(29, 29, 29, 0.55))), url(images/izgara.jpg) 100% 50% no-repeat;
+    background: linear-gradient(rgba(29, 29, 29, 0.55), rgba(29, 29, 29, 0.55)), url(images/izgara.jpg) 100% 50% no-repeat;
+    -o-object-fit: cover;
+       object-fit: cover;
+    background-size: 100%;
+  }
+  #menu .anayemekler h3 {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(29, 29, 29, 0.55)), to(rgba(29, 29, 29, 0.55))), url(images/ana_yemek.jpg) 100% 50% no-repeat;
+    background: linear-gradient(rgba(29, 29, 29, 0.55), rgba(29, 29, 29, 0.55)), url(images/ana_yemek.jpg) 100% 50% no-repeat;
+    -o-object-fit: cover;
+       object-fit: cover;
+    background-size: 100%;
+  }
+  #menu .arasicaklar h3 {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(29, 29, 29, 0.55)), to(rgba(29, 29, 29, 0.55))), url(images/ara_sicak.jpg) 100% 50% no-repeat;
+    background: linear-gradient(rgba(29, 29, 29, 0.55), rgba(29, 29, 29, 0.55)), url(images/ara_sicak.jpg) 100% 50% no-repeat;
+    -o-object-fit: cover;
+       object-fit: cover;
+    background-size: 100%;
+  }
+  #menu .tatlilar h3 {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(29, 29, 29, 0.55)), to(rgba(29, 29, 29, 0.55))), url(images/tatli.jpg) 100% 50% no-repeat;
+    background: linear-gradient(rgba(29, 29, 29, 0.55), rgba(29, 29, 29, 0.55)), url(images/tatli.jpg) 100% 50% no-repeat;
+    -o-object-fit: cover;
+       object-fit: cover;
+    background-size: 100%;
+  }
+  #menu .sicakicecekler h3 {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(29, 29, 29, 0.55)), to(rgba(29, 29, 29, 0.55))), url(images/sicak_icecek.jpg) 100% 50% no-repeat;
+    background: linear-gradient(rgba(29, 29, 29, 0.55), rgba(29, 29, 29, 0.55)), url(images/sicak_icecek.jpg) 100% 50% no-repeat;
+    -o-object-fit: cover;
+       object-fit: cover;
+    background-size: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

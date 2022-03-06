@@ -1,0 +1,169 @@
+html {
+    scroll-behavior: smooth;
+}
+
+input,
+textarea,
+button,
+select,
+a {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        margin: 0;
+        background: rgb(170, 134, 105);
+        background: -moz-linear-gradient(87deg, rgb(175, 110, 56) 0%, rgb(250, 247, 240)100%);
+        background: -webkit-linear-gradient(87deg, rgb(175, 110, 56) 0%, rgb(250, 247, 240)100%);
+        background: linear-gradient(87deg, rgb(175, 110, 56) 0%, rgb(250, 247, 240)100%);
+        //filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#aa8669",endColorstr="#f4ead6",GradientType=1);
+        font-family: BROLIMO;
+    }
+    .first-section {
+        border-bottom: 1px solid #000;
+        box-sizing: border-box;
+        height: 100vh;
+        padding-top: 75px;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        & h1 {
+            letter-spacing: 0.5px;
+            font-size: 48px;
+            width: 100%;
+            text-align: center;
+            align-items: center;
+            font-weight: 800;
+        }
+        & p {
+            margin-top: -10px;
+            font-size: 20px;
+            font-family: 'Noto Sans', sans-serif;
+            width: 100%;
+            text-align: center;
+            align-items: center;
+        }
+        .menu-btn {
+            box-sizing: border-box;
+            margin: auto;
+            margin-top: 55px;
+            border: none;
+            border-radius: 50px;
+            width: 125px;
+            height: 50px;
+            background: #fffaf0;
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease 0s;
+            .menu-btn:hover {
+                box-shadow: 0px 15px 20px;
+                transform: translateY(-7px);
+            }
+            & a {
+                color: #000;
+                text-decoration: none;
+                font-family: BROLIMO;
+                font-weight: 700;
+                font-size: 21px;
+            }
+        }
+    }
+    #menu {
+        text-align: center;
+        scroll-margin: 20px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        & ul {
+            list-style: none;
+            text-align: center;
+            width: 90vw;
+            margin: auto;
+            margin-top: 50px;
+            font-size: 30px;
+            padding: 0;
+            font-family: Noto Sans, sans-serif;
+            font-weight: 700;
+            & h3 {
+                -webkit-text-stroke: 0.75px rgba(0, 0, 0, 0.789);
+                border-radius: 20px;
+                padding-top: 15px;
+                align-items: center;
+                height: 70px;
+                color: rgb(228, 228, 220);
+                margin: 0;
+                margin-top: 30px;
+                margin-bottom: 20px;
+            }
+            & li {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                & h4 {
+                    font-weight: 400;
+                    text-decoration: underline;
+                    font-size: 19px;
+                    margin-bottom: 0;
+                }
+                & p {
+                    margin: 0;
+                    width: 100%;
+                    padding-left: 10%;
+                    text-align: left;
+                    font-size: 10px;
+                    font-weight: 400;
+                    color: rgb(89, 89, 89);
+                }
+            }
+        }
+        .sogukicecekler {
+            padding-bottom: 170px;
+            & h3 {
+                background: linear-gradient(rgba(29, 29, 29, 0.55), rgba(29, 29, 29, 0.55)), url(images/soguk_icecek.jpg) 100% 10% no-repeat;
+                object-fit: cover;
+                background-size: 100%;
+            }
+        }
+        .corbalar h3 {
+            background: linear-gradient(rgba(29, 29, 29, 0.55), rgba(29, 29, 29, 0.55)), url(images/corba.jpg) 100% 50% no-repeat;
+            object-fit: cover;
+            background-size: 100%;
+        }
+        .zeytinyaglilar h3 {
+            background: linear-gradient(rgba(29, 29, 29, 0.55), rgba(29, 29, 29, 0.55)), url(images/zeytinyagli.jpg) 100% 50% no-repeat;
+            object-fit: cover;
+            background-size: 100%;
+        }
+        .salatalar h3 {
+            background: linear-gradient(rgba(29, 29, 29, 0.55), rgba(29, 29, 29, 0.55)), url(images/salata.jpg) 100% 50% no-repeat;
+            object-fit: cover;
+            background-size: 100%;
+        }
+        .izgaralar h3 {
+            background: linear-gradient(rgba(29, 29, 29, 0.55), rgba(29, 29, 29, 0.55)), url(images/izgara.jpg) 100% 50% no-repeat;
+            object-fit: cover;
+            background-size: 100%;
+        }
+        .anayemekler h3 {
+            background: linear-gradient(rgba(29, 29, 29, 0.55), rgba(29, 29, 29, 0.55)), url(images/ana_yemek.jpg) 100% 50% no-repeat;
+            object-fit: cover;
+            background-size: 100%;
+        }
+        .arasicaklar h3 {
+            background: linear-gradient(rgba(29, 29, 29, 0.55), rgba(29, 29, 29, 0.55)), url(images/ara_sicak.jpg) 100% 50% no-repeat;
+            object-fit: cover;
+            background-size: 100%;
+        }
+        .tatlilar h3 {
+            background: linear-gradient(rgba(29, 29, 29, 0.55), rgba(29, 29, 29, 0.55)), url(images/tatli.jpg) 100% 50% no-repeat;
+            object-fit: cover;
+            background-size: 100%;
+        }
+        .sicakicecekler h3 {
+            background: linear-gradient(rgba(29, 29, 29, 0.55), rgba(29, 29, 29, 0.55)), url(images/sicak_icecek.jpg) 100% 50% no-repeat;
+            object-fit: cover;
+            background-size: 100%;
+        }
+    }
+}
